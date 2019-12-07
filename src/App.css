@@ -2,4 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(64, 64, 64);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  color: red;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
 }
