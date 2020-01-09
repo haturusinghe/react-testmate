@@ -1,0 +1,9 @@
+.card-list {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+/*# sourceMappingURL=Cards.css.map */

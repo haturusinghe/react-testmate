@@ -1,0 +1,101 @@
+.sidebar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #2a2727;
+  width: 250px;
+  min-height: 100vh;
+}
+
+.sidebar .sidebar-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar .sidebar-item .sidebar-item-content-expand-arrow {
+  font-size: 1.2rem !important;
+  color: white;
+}
+
+.sidebar .sidebar-item .sidebar-item-content-expand-arrow-expanded {
+  color: #09bb12;
+  font-weight: bold;
+}
+
+.sidebar .sidebar-item .sidebar-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: white !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .sidebar-item .sidebar-item-content .sidebar-item-content-text {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.sidebar .sidebar-item .sidebar-item-content .sidebar-item-content-icon {
+  font-size: 5em;
+  margin-left: 10px;
+}
+
+/*
+///////////////////////////////////
+When sidebar is collapsed
+//////////////////////////////////
+*/
+.sidebar-collapsed {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #2a2727;
+  top: 65px;
+  width: 75px;
+  min-height: 100vh;
+}
+
+.sidebar-collapsed .sidebar-item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar-collapsed .sidebar-item .sidebar-item-content-expand-arrow {
+  display: none;
+}
+
+.sidebar-collapsed .sidebar-item .sidebar-item-content-expand-arrow-expanded {
+  display: none;
+}
+
+.sidebar-collapsed .sidebar-item .sidebar-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: white !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+}
+
+.sidebar-collapsed .sidebar-item .sidebar-item-content .sidebar-item-content-text {
+  display: none;
+}
+
+.sidebar-collapsed .sidebar-item .sidebar-item-content .sidebar-item-content-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 5em;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=Sidebar.css.map */

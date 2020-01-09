@@ -1,0 +1,102 @@
+.sidebar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  // background-color: #1a1a1a;
+  background-color: rgb(42, 39, 39);
+  width: 250px;
+  min-height: 100vh;
+  // position: absolute;
+  // top: 65px;
+  // display: flex;
+
+  .sidebar-item {
+    // background-color: aqua;
+    align-items: center;
+    display: flex;
+
+    .sidebar-item-content-expand-arrow {
+      font-size: 1.2rem !important;
+      color: rgb(255, 255, 255);
+    }
+    .sidebar-item-content-expand-arrow-expanded {
+      color: #09bb12;
+      font-weight: bold;
+    }
+
+    .sidebar-item-content {
+      // background-color: rgb(220, 7, 7);
+      // white-space: nowrap;
+      // text-overflow: ellipsis;
+      // overflow: hidden;
+      display: flex;
+      width: 100%;
+      color: white !important;
+      align-items: center;
+
+      .sidebar-item-content-text {
+        width: 100%;
+        padding: 5px 10px;
+      }
+
+      .sidebar-item-content-icon {
+        font-size: 5em;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+/*
+///////////////////////////////////
+When sidebar is collapsed
+//////////////////////////////////
+*/
+.sidebar-collapsed {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(42, 39, 39);
+  top: 65px;
+  width: 75px;
+  min-height: 100vh;
+  // position: absolute;
+
+  .sidebar-item {
+    align-items: center;
+    display: flex;
+    // background-color: aqua;
+    // width: 100%;
+
+    .sidebar-item-content-expand-arrow {
+      display: none;
+      // font-size: 1.2rem !important;
+      // color: rgb(255, 255, 255);
+    }
+    .sidebar-item-content-expand-arrow-expanded {
+      display: none;
+      // color: #09bb12;
+      // font-weight: bold;
+    }
+
+    .sidebar-item-content {
+      // background-color: rgb(220, 7, 7);
+      // white-space: nowrap;
+      // text-overflow: ellipsis;
+      // overflow: hidden;
+      display: flex;
+      width: 100%;
+      color: white !important;
+      align-items: center;
+      margin-left: 5px;
+
+      .sidebar-item-content-text {
+        display: none;
+        // width: 100%;
+        // padding: 5px 10px;
+      }
+
+      .sidebar-item-content-icon {
+        display: flex;
+        font-size: 5em;
+        margin-left: 10px;
+      }
+    }
+  }
+}

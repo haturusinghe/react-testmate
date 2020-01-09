@@ -1,0 +1,11 @@
+/* Hero */
+.defaultHero,
+.roomsHero {
+  /* min-height: calc(100vh - 66px); */
+  height: 100%;
+  //   background: url("./Images/bg.png") repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End of Hero */

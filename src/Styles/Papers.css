@@ -1,0 +1,78 @@
+.paper-page .paperContainer .paperContainer-List {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container:hover img {
+  opacity: 0.3;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper:hover .dwn-link {
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+  opacity: 100% !important;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper:hover .downloads-top {
+  opacity: 100% !important;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper p {
+  text-transform: uppercase;
+  background-color: #2a2727;
+  padding: 0.5rem 0;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: var(--mainSpacing);
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container {
+  position: relative;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container .dwn-link {
+  position: absolute;
+  opacity: 0;
+  top: 80%;
+  left: 13%;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container img {
+  width: 100%;
+  display: block;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container .downloads-top {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 0.3rem 0.6rem 0.5rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  -webkit-transition: var(--mainTransition);
+  transition: var(--mainTransition);
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container .downloads-top h6 {
+  font-size: 1em;
+}
+
+.paper-page .paperContainer .paperContainer-List .paper .img-container .downloads-top p {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=Papers.css.map */
