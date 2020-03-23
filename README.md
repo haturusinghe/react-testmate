@@ -1,7 +1,1 @@
-## You niggas spend too much time on captions, not enough time on action
-######  ~~Drake~~ haturusinghe
----
-
-to run:
-
-### `npm start`
+Free A/L education platform project ,(work in progress)
